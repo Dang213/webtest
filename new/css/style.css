@@ -1,0 +1,58 @@
+.main h2 {
+  font-size: 25px;
+}
+.main .minitext {
+  margin-bottom: 40px;
+}
+.main .container .slider-for {
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 5px var(--primary-color-2);
+}
+.main .container .slider-nav {
+  text-align: center;
+  max-width: 280px;
+  margin: auto;
+}
+.main .container .slider-nav h4 {
+  background-color: var(--primary-color-3);
+  border: 1px solid var(--primary-color-4);
+  color: var(--primary-color-4);
+  opacity: .9;
+  margin: 10px 14px;
+  font-size: 14px;
+}
+.onhover, .main .container .slider-nav h4:hover {
+  opacity: 1;
+  color: var(--primary-color-3);
+  background-color: var(--primary-color-4);
+}
+.list-box dl {
+  width: 200px;
+}
+.list-box dt {
+  color: var(--primary-color-4);
+  font-size: 14px;
+  padding: 6px;
+  border-left: 8px solid var(--primary-color-7);
+  font-weight: bold;
+}
+.list-box dd {
+  padding: 10px 16px;
+  line-height: 24px;
+}
+#textstyle dt {
+  background-color: var(--primary-color-5);
+}
+@media (max-width: 1025px) {
+  .list-box {
+    display: none;
+  }
+}
+@media (min-width: 1025px) {
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,22 @@
+.main h2{
+    font-size: 25px;
+}
+dl{
+    padding-top: 40px;
+}
+dt{
+    color: var(--primary-color-2);
+    font-size: 12px;
+    padding: 10px;
+    border-left: 8px solid var(--primary-color-7);
+    background-color: var(--primary-color-5);
+}
+dd{
+    padding: 10px 18px;
+    line-height: 24px;
+    border-left: 1px solid var(--primary-color-6);
+    border-right: 1px solid var(--primary-color-6);
+}
+dd:last-child{
+    border-bottom: 1px solid var(--primary-color-6);
+}

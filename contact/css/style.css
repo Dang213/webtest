@@ -1,0 +1,112 @@
+.main h2{
+    font-size: 25px;
+}
+.main .minitext{
+    margin-bottom: 40px;
+}
+.main .main_text {
+    padding-bottom: 20px;
+  }
+.main .main_text p{
+    padding-left: 20px;
+  }
+
+ .main .main_form  .check{
+    position: relative;
+    margin-bottom: 30px;
+}
+ .submit{
+    width: 140px;
+    height:36px;
+    background-color: var(--primary-color-6);
+    border:none;
+    color: var(--primary-color-2);
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.submit:hover{
+    background-color: var(--primary-color-4);
+    color: var(--primary-color-3);
+	border: 1px solid var(--primary-color-7);
+}
+.yellow{
+    background-color: var(--primary-color-7);
+    color: var(--primary-color-2);
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    padding:3px 7px ;
+    margin-left: 5px;
+}
+.main_form dt{
+    width:160px;
+    float: left;
+    border-radius: 5px;
+}
+.main_form dd{
+    text-align: right;
+}
+.main_form dt{
+    color: var(--primary-color-3);
+    padding: 12px 0;
+}
+.main_form dd{
+    padding: 10px 0;
+}
+.main_form dl {
+  padding:0 10px 30px 10px;
+  font-size: 12px;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid var(--primary-color-6);
+  background-color: var(--primary-color-8);
+  /*display:flex;
+    flex-wrap:wrap;*/
+}
+.list-box dl{
+    width:200px;
+}
+.list-box dt{
+    color: var(--primary-color-4);
+    font-size: 14px;
+    padding: 6px;
+    border-left: 8px solid var(--primary-color-7);
+	font-weight: bold;
+}
+.list-box dd{
+    padding: 10px 16px;
+    line-height: 24px;
+}
+#textstyle dt{
+	background-color: var(--primary-color-5);
+}
+.p-formname{
+    width: 380px;
+}
+@media (min-width: 1025px){
+    .flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main_form{
+        width:600px;
+    }
+}
+@media (max-width: 1025px){
+    .main_form{
+        max-width: 600px;
+        margin: auto;
+    }
+    .list-box{
+        display: none;
+    }
+}
+@media(max-width:640px){
+ .p-formname{
+    width: 100%;
+ }
+}

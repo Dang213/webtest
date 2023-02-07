@@ -1,0 +1,150 @@
+.main h2 {
+  font-size: 25px;
+}
+.content {
+  padding-top: 20px;
+}
+.main-content {
+  max-width: 800px;
+  margin: auto;
+}
+#textA {
+  font-size: 13px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: var(--primary-color-4);
+  border: 1px solid var(--primary-color-7);
+}
+.textshort {
+  font-size: 13px;
+}
+.third-text {
+  padding: 10px 15px 0 15px;
+  line-height: 22px;
+}
+.picture-box img {
+  aspect-ratio: 4/3;
+  object-fit: contain;
+}
+.item-box img {
+  width: 160px;
+  height: 120px;
+}
+.item {
+  padding-top: 10px;
+  text-align: center;
+}
+.item a:hover {
+  border: none;
+}
+.picture-box {
+  width: 300px;
+}
+.picture-box {
+  position: relative;
+}
+.image-box {
+  position: relative;
+  overflow: hidden;
+}
+.image-box .hover-box {
+  position: absolute;
+  width: 100%;
+  height: 225px;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color-4);
+  color: var(--primary-color-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  opacity: 0;
+  font-size: 33px;
+}
+.image-box:hover .hover-box {
+  opacity: .6;
+}
+.main-text {
+  line-height: 24px;
+}
+@media(min-width:1200px) {
+  .item-box {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media(min-width:768px) {
+  .main .container .minitext {
+    width: 130px;
+    font-size: 12px;
+  }
+  .main .container h2 {
+    font-size: 30px;
+  }
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  #textA {
+    width: 280px;
+  }
+}
+@media(max-width:1200px) {
+  .item-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .content {
+    padding-top: 40px;
+  }
+  .item-box img {
+    width: 180px;
+    height: 135px;
+  }
+  .textshort {
+    padding-top: 10px;
+  }
+}
+@media(max-width:868px) {
+  .item-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media(max-width:768px) {
+  .picture-box img, .picture-box {
+    width: 100%;
+  }
+  .picture-box {
+    margin-top: 20px;
+  }
+  .hover-box {
+    display: none;
+  }
+  .image-box:hover .hover-box {
+    opacity: 0;
+  }
+}
+@media(max-width:668px) {
+  .item-box {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .item-box img {
+    width: 200px;
+    height: 150px;
+  }
+}
+@media(max-width:468px) {
+  .item-box img {
+    width: 160px;
+    height: 120px;
+  }
+}
+@media(max-width:389px) {
+  .item-box img {
+    width: 140px;
+    height: 105px;
+  }
+}

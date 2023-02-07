@@ -1,0 +1,28 @@
+.main h2{
+    font-size: 22px;
+}
+.flexbox,.facttext{
+	max-width: 1200px;
+	margin: auto;
+}
+.facttext{
+    padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+dt{
+    color: var(--primary-color-4);
+    font-size: 14px;
+    padding: 6px;
+    border-left: 8px solid var(--primary-color-7);
+	background-color: var(--primary-color-5);
+}
+dd{
+    padding: 10px 16px;
+    line-height: 24px;
+	border-left: 1px solid var(--primary-color-6);
+    border-right: 1px solid var(--primary-color-6);
+}
+dd:last-child{
+    border-bottom: 1px solid var(--primary-color-6);
+}
